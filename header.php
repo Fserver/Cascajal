@@ -38,6 +38,9 @@
                 <li><a href="experiencias.php">Unipacifico</a></li>
                 <li class="divider"></li>
                 <li><a href="experiencias.php">Univalle</a></li>
+                <li class="divider"></li>
+                <li><a href="experiencias.php">Labor social</a></li>
+
               </ul>
             </li>
             <li><a href="about.php">Contacto</a></li>

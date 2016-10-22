@@ -15,7 +15,7 @@
 <body>
 
 <!--                                     Inicio jumbotron                                     -->
-<div class="container" id="jumbo">
+<div class="fullscreen" id="jumbo">
   <h1 class="text-center">Fundación Cascajal</h1>
   <h3 class="text-center">Buenaventura</h3>
 </div>

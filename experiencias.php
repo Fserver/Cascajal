@@ -12,25 +12,18 @@
     <script src="js/materialize.js"></script>
 
 <script type="text/javascript">
-	$(document).ready(function(){
-      $('.parallax').parallax();
-    });
+  $('.tabs-wrapper .row').pushpin('remove');
 </script>
 
 </head>
 
 <body>
 
-<?php include './header.php';?>
-
-<div class="parallax-container">
-	<div class="parallax"><img src="img/background.jpg"></div>
-</div>
 
 
 
 
-
+    <a href="#!" class="btn waves-effect waves-teal">Send</a>
 
 
 
