@@ -33,14 +33,14 @@
   <div class="carousel-inner" role="listbox">
     <div class="item active">
       <img src="img/img1.jpg" alt="banner1">
-       <div class="carousel-caption">
-          <a class="green-text right" href="#"><h3>Reunión con los nuevos integrantes de la Fundacion Cascajal Buenaventura</h3></a>
+       <div class="text-uppercase carousel-caption">
+          <a class="white-text" href="#"><h5>Reunión con los nuevos integrantes de la Fundacion Cascajal Buenaventura</h5></a>
       </div>
     </div>
     <div class="item">
       <img src="img/img2.jpg" alt="banner2">
-      <div class="carousel-caption">
-        <a class="green-text right" href="#"><h3>Así finaliza la sesión del día.</h3></a>
+      <div class="text-uppercase carousel-caption">
+        <a class="white-text" href="#"><h5>Así finaliza la sesión del día.</h5></a>
       </div>
     </div>
   </div>

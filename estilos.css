@@ -1,0 +1,61 @@
+
+nav.navbar-static-top {
+	background-color: #dee5a8;
+}
+
+.navbar-toggle{
+	background-color: rgb(193, 199, 147);
+}
+
+.open>.dropdown-menu{
+	background-color: rgba(222, 229, 168, 0.6);
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+	background-color: #c8cf98;
+}
+
+.navbar-nav>li>a{
+	background-color: #dee5a8;
+}
+
+body {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#jumbo{
+	color: #0CFB00;
+	text-shadow: -1px -1px 1px #FFFC00, 1px 1px 1px #FFFC00, -1px 1px 1px #FFFC00, 1px -1px 1px #FFFC00;
+	margin: 0px 0px 0px 130px;
+	padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.carousel-inner {
+ 	text-align: center; 
+}
+.carousel .item > img {
+ 	display: inline-block; 
+}
+.carousel, .carousel-inner > .item > img {
+  	height: 500px;
+  	width: 100%;
+}
+
+
+#textslider{
+    font-size: 1rem;
+    line-height: 100%;
+    margin: 8.5rem 0 27.4rem 0px;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.page-footer{
+	background-color: #F0FF00 !important;
+}
