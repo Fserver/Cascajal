@@ -5,26 +5,17 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Fundacion Cascajal Buenaventura</title>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/estilos.css">
-  <link rel="stylesheet" href="css/materialize.min.css">
-
-  <script src="js/materialize.min.js"></script>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
-<!-- 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/materialize.min.css">
-	<link rel="stylesheet" href="css/estilos.css">
-  	<script src="js/jquery.min.js"></script>
-  	<script src="js/bootstrap.min.js"></script>
-  	<script src="js/materialize.min.js"></script>
- --></head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/materialize.js"></script>
+</head>
 
 <body background="img/background.jpg">
 
+<!--                                     Inicia Navbar                                     -->
   <header>
     <nav class="navbar navbar-static-top" role="navigation">
       <div class="container">
@@ -37,7 +28,7 @@
           </button>
           <div><img src="img/logo.png" class="logo"></div>
         </div>
-<!--                                     Inicia Menu                                     -->
+  <!--                                     Inicia Menu                                     -->
         <div class="collapse navbar-collapse" id="navegacion-fm">
           <ul class="nav navbar-nav" style="background-color: rgb(222, 229, 168);">
             <li class="active"><a href="index.html">Inicio</a></li>
@@ -51,18 +42,19 @@
                 <li><a href="experiencias.php">Univalle</a></li>
               </ul>
             </li>
-            <li><a href="about.php">Acerca de</a></li>
+            <li><a href="about.php">Contacto</a></li>
           </ul>
         </div>
-<!--                                     Termina Menu                                     -->
+  <!--                                     Termina Menu                                     -->
       </div>
     </nav>
   </header>
+<!--                                     Fin Navbar                                     -->
 
 <!--                                     Inicio jumbotron                                     -->
-<div class="container page-header" id="jumbo">
-  <h1>Fundación Cascajal</h1>
-  <h3>Buenaventura</h3>
+<div class="container" id="jumbo">
+  <h1 class="text-center">Fundación Cascajal</h1>
+  <h3 class="text-center">Buenaventura</h3>
 </div>
 <!--                                     Fin jumbotron                                     -->
 
@@ -78,14 +70,14 @@
   <div class="carousel-inner" role="listbox">
     <div class="item active">
       <img src="img/img1.jpg" alt="banner1">
-       <div class="carousel-caption">
-        <h3>Reunión con los nuevos integrantes de la Fundacion Cascajal Buenaventura</h3>
+       <div class="text-uppercase carousel-caption">
+          <a class="green-text right" href="#"><h3>Reunión con los nuevos integrantes de la Fundacion Cascajal Buenaventura</h3></a>
       </div>
     </div>
     <div class="item">
       <img src="img/img2.jpg" alt="banner2">
-      <div class="carousel-caption">
-        <h3>Así finaliza la sesión del día.</h3>
+      <div class="text-uppercase carousel-caption">
+        <a class="green-text right" href="#"><h3>Así finaliza la sesión del día.</h3></a>
       </div>
     </div>
   </div>
@@ -103,50 +95,52 @@
 <!--                                     Fin carousel                                     -->
 
 <!--                     Imagenes en miniatura                     -->
-<div class="container">
-  
-  <div class="row">
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="img/m1.png" class="img-circle" alt="Cinque Terre">
-        <div class="caption">
-          <h5 class="text-center">Misión</h5>
-          <p>
-            Cascajal Foundation está comprometida a inspirar y empoderar el aprendizaje permanente para fortalecer nuestros lideres jovenes conectando los programas de servicios sociales y culturales de la academia.
-          </p>
+  <section>
+    <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="img/m1.png" class="img-circle" alt="Cinque Terre">
+          <div class="caption">
+            <h5 class="text-center">Misión</h5>
+            <p>
+              Cascajal Foundation está comprometida a inspirar y empoderar el aprendizaje permanente para fortalecer nuestros lideres jovenes conectando los programas de servicios sociales y culturales de la academia.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="img/m2.png" class="img-circle" alt="Cinque Terre">
-        <div class="caption">
-          <h5 class="text-center">Estamos ...</h5>
-          <p>
-            Motivando a los estudiantes hispanos para que logren educación universitaria, promoviendo así su participación en el desarrollo y progreso del país.
-          </p>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="img/m2.png" class="img-circle" alt="Cinque Terre">
+          <div class="caption">
+            <h5 class="text-center">Estamos ...</h5>
+            <p>
+              Motivando a los estudiantes hispanos para que logren educación universitaria, promoviendo así su participación en el desarrollo y progreso del país.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="img/m3.png" class="img-circle" alt="Cinque Terre">
-        <div class="caption">
-          <h5 class="text-center">Nuestros Valores</h5>
-          <p>
-            Valoramos el liderazgo y la creatividad.
-            Valoramos trabajar en equipo para apoyar la juventud durante su academia.
-            Valoramos la participación comunitaria e institucional para fomentar el éxito
-          </p>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="img/m3.png" class="img-circle" alt="Cinque Terre">
+          <div class="caption">
+            <h5 class="text-center">Nuestros Valores</h5>
+            <p>
+              Valoramos el liderazgo y la creatividad.
+              Valoramos trabajar en equipo para apoyar la juventud durante su academia.
+              Valoramos la participación comunitaria e institucional para fomentar el éxito
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+    </div>
+  </section>
 <!--                       Fin de imagenes en miniatura                       -->
 
+<section>
 <footer class="page-footer">
   <div class="container">
     <div class="row">
@@ -157,7 +151,7 @@
       <div class="col l4 offset-l2 s12">
         <h5 class="green-text">Contacto</h5>
         <ul>
-          <li><a class="light-green lighten-5 text-lighten-3" href="#!">Email: info@cascajal.org</a></li>
+          <li><a class="green-text" href="#!">Email: info@cascajal.org</a></li>
         </ul>
       </div>
     </div>
@@ -169,6 +163,7 @@
     </div>
   </div>
 </footer>
+</section>
 	
 </body>
 </html>

@@ -51,13 +51,21 @@
                 <li><a href="experiencias.php">Univalle</a></li>
               </ul>
             </li>
-            <li><a href="about.php">Acerca de</a></li>
+            <li><a href="about.php">Contacto</a></li>
           </ul>
         </div>
 <!--                                     Termina Menu                                     -->
       </div>
     </nav>
   </header>
+
+    <div class="carousel carousel-slider">
+    <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/800/400/food/1"></a>
+    <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/800/400/food/2"></a>
+    <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/800/400/food/3"></a>
+    <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/800/400/food/4"></a>
+  </div>
+
 
 
 

@@ -15,9 +15,9 @@
 <body>
 
 <!--                                     Inicio jumbotron                                     -->
-<div class="container page-header" id="jumbo">
-  <h1>Fundación Cascajal</h1>
-  <h3>Buenaventura</h3>
+<div class="container" id="jumbo">
+  <h1 class="text-center">Fundación Cascajal</h1>
+  <h3 class="text-center">Buenaventura</h3>
 </div>
 <!--                                     Fin jumbotron                                     -->
 
@@ -34,13 +34,13 @@
     <div class="item active">
       <img src="img/img1.jpg" alt="banner1">
        <div class="carousel-caption">
-        <h3>Reunión con los nuevos integrantes de la Fundacion Cascajal Buenaventura</h3>
+          <a class="green-text right" href="#"><h3>Reunión con los nuevos integrantes de la Fundacion Cascajal Buenaventura</h3></a>
       </div>
     </div>
     <div class="item">
       <img src="img/img2.jpg" alt="banner2">
       <div class="carousel-caption">
-        <h3>Así finaliza la sesión del día.</h3>
+        <a class="green-text right" href="#"><h3>Así finaliza la sesión del día.</h3></a>
       </div>
     </div>
   </div>

@@ -12,14 +12,37 @@
   	<script src="js/materialize.min.js"></script>
 </head>
 
-<body>
+<body background="img/background.jpg">
 
 <?php include './header.php';?>
 
-<h1>Acerca de</h1>
-<h3>
-Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
-</h3>
+<div class="container">
+  <h3 class="text-center">Contacto</h3>
+  <div class="row test">
+    <div class="col-md-4">
+      <p>Dudas? Consulte aquí.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Buenaventura, CO</p>
+<!--       <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
+ -->      <p><span class="glyphicon glyphicon-envelope"></span>Email: info@cascajal.org</p> 
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Correo" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comentario" rows="5"></textarea>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit">Send</button>
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
 
  </body>
 </html>
