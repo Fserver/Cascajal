@@ -12,9 +12,32 @@
     <script src="js/materialize.js"></script>
 </head>
 
-<body background="img/background.jpg">
+<body>
 
 <?php include './header.php';?>
+<section>
+  <div>
+    <div>
+        <img id="imglaborsocial" src="img/laborsocial.jpg" class="img-responsive" alt="Cinque Terre" style="width: 100%;height: 600px;">
+    </div>
+
+
+    <!--                    Button                    -->
+      <section>
+        <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-thumbs-up"></span> Like
+        </button>
+      </section>
+    <!--                  ./Button                    -->
+
+  </div>
+</section>
+  
+
+
+
+
+
 
 </div>
 
