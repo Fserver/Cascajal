@@ -16,8 +16,8 @@
 
 <!--                                     Inicio jumbotron                                     -->
 <div class="fullscreen" id="jumbo">
-  <h1 class="text-center">Fundación Cascajal</h1>
-  <h3 class="text-center">Buenaventura</h3>
+  <h1 id="jumbo1" class="text-center">Fundación Cascajal</h1>
+  <h3 id="jumbo1" class="text-center">Buenaventura</h3>
 </div>
 <!--                                     Fin jumbotron                                     -->
 
@@ -58,48 +58,50 @@
 <!--                                     Fin carousel                                     -->
 
 <!--                     Imagenes en miniatura                     -->
-<div class="container">
-  
-  <div class="row">
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="img/m1.png" class="img-circle" alt="Cinque Terre">
-        <div class="caption">
-          <h5 class="text-center">Misión</h5>
-          <p>
-            Cascajal Foundation está comprometida a inspirar y empoderar el aprendizaje permanente para fortalecer nuestros lideres jovenes conectando los programas de servicios sociales y culturales de la academia.
-          </p>
-        </div>
-      </div>
-    </div>
+  <section style="padding-top: 10px">
+    <div class="container">
+    <div class="row">
 
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="img/m2.png" class="img-circle" alt="Cinque Terre">
-        <div class="caption">
-          <h5 class="text-center">Estamos ...</h5>
-          <p>
-            Motivando a los estudiantes hispanos para que logren educación universitaria, promoviendo así su participación en el desarrollo y progreso del país.
-          </p>
+      <div class="col-xs-12 col-md-4">
+        <div class="thumbnail">
+          <img src="img/m1.png" class="img-circle" alt="Cinque Terre">
+          <div id="imagenes" class="caption">
+            <h5 class="text-center">Misión</h5>
+            <p>
+              Cascajal Foundation está comprometida a inspirar y empoderar el aprendizaje permanente para fortalecer nuestros lideres jovenes conectando los programas de servicios sociales y culturales de la academia.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="img/m3.png" class="img-circle" alt="Cinque Terre">
-        <div class="caption">
-          <h5 class="text-center">Nuestros Valores</h5>
-          <p>
-            Valoramos el liderazgo y la creatividad.
-            Valoramos trabajar en equipo para apoyar la juventud durante su academia.
-            Valoramos la participación comunitaria e institucional para fomentar el éxito
-          </p>
+      <div class="col-xs-12 col-md-4">
+        <div class="thumbnail">
+          <img src="img/m2.png" class="img-circle" alt="Cinque Terre">
+          <div id="imagenes" class="caption">
+            <h5 class="text-center">Estamos ...</h5>
+            <p>
+              Motivando a los estudiantes hispanos para que logren educación universitaria, promoviendo así su participación en el desarrollo y progreso del país.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-md-4">
+        <div class="thumbnail">
+          <img src="img/m3.png" class="img-circle" alt="Cinque Terre">
+          <div id="imagenes" class="caption">
+            <h5 class="text-center">Nuestros Valores</h5>
+            <p>
+              Valoramos el liderazgo y la creatividad.
+              Valoramos trabajar en equipo para apoyar la juventud durante su academia.
+              Valoramos la participación comunitaria e institucional para fomentar el éxito
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+    </div>
+  </section>
 <!--                       Fin de imagenes en miniatura                       -->
 
 

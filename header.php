@@ -14,6 +14,7 @@
 
 <body>
 
+<!--                                     Inicia Navbar                                     -->
   <header>
     <nav class="navbar navbar-static-top" role="navigation">
       <div class="container">
@@ -26,7 +27,7 @@
           </button>
           <div><img src="img/logo.png" class="logo"></div>
         </div>
-<!--                                     Inicia Menu                                     -->
+  <!--                                     Inicia Menu                                     -->
         <div class="collapse navbar-collapse" id="navegacion-fm">
           <ul class="nav navbar-nav" style="background-color: rgb(222, 229, 168);">
             <li class="active"><a href="index.html">Inicio</a></li>
@@ -38,18 +39,18 @@
                 <li><a href="experiencias.php">Unipacifico</a></li>
                 <li class="divider"></li>
                 <li><a href="experiencias.php">Univalle</a></li>
-                <li class="divider"></li>
-                <li><a href="experiencias.php">Labor social</a></li>
-
               </ul>
             </li>
+            <li><a href="about.php">Labor social</a></li>
             <li><a href="about.php">Contacto</a></li>
+
           </ul>
         </div>
-<!--                                     Termina Menu                                     -->
+  <!--                                     Termina Menu                                     -->
       </div>
     </nav>
   </header>
+<!--                                     Fin Navbar                                     -->
 
     <div class="carousel carousel-slider">
     <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/800/400/food/1"></a>
