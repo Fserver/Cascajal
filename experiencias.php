@@ -10,20 +10,10 @@
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/materialize.js"></script>
-
-<script type="text/javascript">
-  $('.tabs-wrapper .row').pushpin('remove');
-</script>
-
 </head>
 
 <body>
-
-
-
-
-
-    <a href="#!" class="btn waves-effect waves-teal">Send</a>
+<?php include './header.php';?>
 
 
 
