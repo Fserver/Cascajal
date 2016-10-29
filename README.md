@@ -1,8 +1,8 @@
 # Cascajal
 
 Version 29.10.2016 <b>NEW!</b>
-<pre>-librerias corregidas
-<br>-añadida pagina "contacto.php"</br>
+<pre>
+<br>-añadida pagina "experiencias.php"</br>
 </pre>
 
 
