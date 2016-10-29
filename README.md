@@ -2,7 +2,7 @@
 
 Version 29.10.2016 <b>NEW!</b>
 <pre>
-<br>-añadida pagina "experiencias.php"</br>
+<br>-añadida pagina "experiencias.php" (en proceso de modelado [15%])</br>
 </pre>
 
 
