@@ -1,6 +1,12 @@
 # Cascajal
 
-Version 23.10.2016 <b>NEW!</b>
+Version 29.10.2016 <b>NEW!</b>
+<pre>-librerias corregidas
+<br>-añadida pagina "contacto.php"</br>
+</pre>
+
+
+Version 23.10.2016
 <pre>
 -corregidos los espacios entre el contenido de la pagina
 <br>-añadida pagina "laborsocial.php" (en proceso de modelado [80%])</br>
