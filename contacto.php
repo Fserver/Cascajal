@@ -16,7 +16,7 @@
 
 <?php include './header.php';?>
 
-<section>
+<section style="margin-top: 30px; margin-bottom: 33px;">
   <div class="container">
     <h3 class="text-center">Contacto</h3>
     <div class="row test">

@@ -15,7 +15,17 @@
 <body>
 <?php include './header.php';?>
 
+<section>
+	<div class="row">
+      	<div class="col s12" style="border-bottom: 45px solid #008001"><h1 class="center-align">Cascajal Foundation</h1></div>
 
+      	<div class="col s6 center-align">UNIVERSIDAD DEL PACIFICO
+      	</div>
+
+      	<div class="col s6 center-align">UNIVERSIDAD DEL VALLE
+      	</div>
+    </div>
+</section>
 
 
 </body>
