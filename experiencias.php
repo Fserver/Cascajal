@@ -19,10 +19,12 @@
 	<div class="row">
       	<div class="col s12" style="border-bottom: 45px solid #008001"><h1 class="center-align">Cascajal Foundation</h1></div>
 
-      	<div class="col s6 center-align">UNIVERSIDAD DEL PACIFICO
+      	<div class="col s6 center-align">
+      		<div><img src="img/escudo_unipacifico.png"></div>
       	</div>
 
-      	<div class="col s6 center-align">UNIVERSIDAD DEL VALLE
+      	<div class="col s6 center-align">
+      		<div><img src="img/escudo_univalle.PNG"></div>
       	</div>
     </div>
 </section>
