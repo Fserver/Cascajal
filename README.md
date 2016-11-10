@@ -2,7 +2,7 @@
 
 Version 10.11.2016 <b>NEW!</b>
 <pre>
-<br>-añadida pagina "experiencias.php" (en proceso de construccion [60%])</br>
+<br>-avance en la pagina "experiencias.php" (en proceso de construccion [60%])</br>
 </pre>
 
 
