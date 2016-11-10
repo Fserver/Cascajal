@@ -1,8 +1,14 @@
 # Cascajal
 
-Version 29.10.2016 <b>NEW!</b>
+Version 10.11.2016 <b>NEW!</b>
 <pre>
-<br>-añadida pagina "experiencias.php" (en proceso de modelado [15%])</br>
+<br>-añadida pagina "experiencias.php" (en proceso de construccion [60%])</br>
+</pre>
+
+
+Version 29.10.2016
+<pre>
+<br>-añadida pagina "experiencias.php"</br>
 </pre>
 
 
