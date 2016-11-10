@@ -25,21 +25,11 @@
         </div>
   <!--                                     Inicia Menu                                     -->
         <div class="collapse navbar-collapse" id="navegacion-fm">
-          <ul class="nav navbar-nav" style="background-color: rgb(222, 229, 168);">
+          <ul class="nav navbar-nav">
             <li class="active"><a href="index.html">Inicio</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
-                Experiencias <span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="experiencias.php">Unipacifico</a></li>
-                <li class="divider"></li>
-                <li><a href="experiencias.php">Univalle</a></li>
-              </ul>
-            </li>
+            <li><a href="experiencias.php">Experiencias</a></li>
             <li><a href="laborsocial.php">Labor social</a></li>
             <li><a href="contacto.php">Contacto</a></li>
-
           </ul>
         </div>
   <!--                                     Termina Menu                                     -->
