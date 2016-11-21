@@ -32,7 +32,7 @@
   </div>
 </section>
 
-<section class="container">
+<section class="container" style="min-height: 560px;">
   <ul class="collapsible" data-collapsible="accordion">
     <li>
       <div class="collapsible-header active">SOMOS CASCAJAL FOUNDATION...</div>

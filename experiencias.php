@@ -14,14 +14,13 @@
     <script type="text/javascript">
       $(document).ready(function(){
       $('.tooltipped').tooltip({delay: 50});
-      $('.carousel').carousel();
-
+      $('.slider').slider({full_width: true});
       });
     </script>
 
 </head>
 
-<body>
+<body background="img/background.jpg">
 <?php include './header.php';?>
 <!--                                  Titulo                                  -->
   <div><h3 class="center-align ">Experiencias</h3></div>
@@ -61,39 +60,46 @@
           <div class="card">
             <div class="card-image">
               <img src="img/unidos.jpg">
-              <span class="card-title">Trabajmos unidos con un propósito</span>
+              <span class="card-title center" <style type="text/css" media="screen">
+                
+              </style>Trabajmos unidos con un propósito</span>
             </div>
-    <div class="col s12">
-      <div class="col-xs-12 col-md-6 center-align">
-      
-  <div class="carousel">
-    <a class="carousel-item" href="#one!"><img src="img/1.jpg">"Informacion"</a>
-    <a class="carousel-item" href="#two!"><img src="img/2.jpg">"Informacion"</a>
-    <a class="carousel-item" href="#three!"><img src="img/3.jpg">"Informacion"</a>
-    <a class="carousel-item" href="#four!"><img src="img/4.jpg">"Informacion"</a>
-    <a class="carousel-item" href="#five!"><img src="img/5.jpg">"Informacion"</a>
+
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
   </div>
 
-      </div>
-      <div class="col-xs-12 col-md-6 center-align">
-
-  <div class="carousel">
-    <a class="carousel-item" href="#one!"><img src="img/1.jpg">"Informacion"</a>
-    <a class="carousel-item" href="#two!"><img src="img/2.jpg">"Informacion"</a>
-    <a class="carousel-item" href="#three!"><img src="img/3.jpg">"Informacion"</a>
-    <a class="carousel-item" href="#four!"><img src="img/4.jpg">"Informacion"</a>
-    <a class="carousel-item" href="#five!"><img src="img/5.jpg">"Informacion"</a>
-  </div>
 
 
-      </div>
-
-
-
-            <div class="card-action">
-              <a href="#">This is a link</a>
-            </div>
-          </div>
         </div>
       </div>
 
@@ -102,6 +108,7 @@
 
 
 </section>
+<?php include './footer.php';?>
 
 
 </body>
