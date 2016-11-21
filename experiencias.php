@@ -10,13 +10,11 @@
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/materialize.js"></script>
+   
     <script type="text/javascript">
       $(document).ready(function(){
-        $('.tooltipped').tooltip({delay: 50});
-        $('.parallax').parallax();
-    });
-
-</script>
+      $('.tooltipped').tooltip({delay: 50});
+    </script>
 
 </head>
 
@@ -27,12 +25,12 @@
 <!--                                  /Titulo                                  -->
 
 <section>
-  <div class="parallax-container">
-    <div class="parallax"><img src="img/parallax1.jpg"></div>
+  <div>
+    <img src="img/parallax1.jpg" style="margin-bottom: -41px;">
   </div>
   <div class="section white">
     <h1 class="center-align">Estudiantes Becados</h1>
-    <div class="col s12 parallax-container">
+    <div class="col s12">
       <div class="col-xs-12 col-md-6">
         <ul class="collection with-header center-align">
           <li class="collection-header"><h4>Unipacífico</h4></li>
@@ -52,17 +50,14 @@
         </ul>
       </div>
   </div>
-
-
-
-    </div>
+  <div>
+    <img src="img/parallax1.jpg">
   </div>
-  <div class="parallax-container">
-    <div class="parallax"><img src="img/parallax1.jpg"></div>
-  </div>
-	
 
-  </div>
+
+
+
+
 </section>
 
 
