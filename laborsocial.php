@@ -35,13 +35,13 @@
 <section class="container">
   <ul class="collapsible" data-collapsible="accordion">
     <li>
-      <div class="collapsible-header active"><i class="material-icons">SOMOS CASCAJAL FOUNDATION...</i></div>
+      <div class="collapsible-header active">SOMOS CASCAJAL FOUNDATION...</div>
       <div class="collapsible-body"><p>
         una organización sin animo de lucro 501c(3) dedicada a la adquisición, financiación y promoción de oportunidades educativas para jóvenes hispanos desde secundaria hasta postgrado. Cascajal Foundation organiza una amplia variedad de actividades sociales para recaudar fondos con el objetivo de proporcionar apoyo financiero en forma becas para estudiantes hispanos de bajos ingresos. Desde 2009, Cascajal Foundation ha otorgado becas a estudiantes para cubrir los costos parciales de sus matrículas en diferentes universidades de los Estados Unidos
       </p></div>
     </li>
     <li>
-      <div class="collapsible-header"><i class="material-icons">TRABAJAMOS CON LA COMUNIDAD... </i></div>
+      <div class="collapsible-header">TRABAJAMOS CON LA COMUNIDAD...</div>
       <div class="collapsible-body">
       <pre>COMPROMETIDOS CON LA FORMACIÓN DE NUESTROS LÍDERES</pre>
       <p>
@@ -53,7 +53,7 @@
       </p></div>
     </li>
     <li>
-      <div class="collapsible-header"><i class="material-icons">HAGA UNA DONACIÓN AHORA Y APOYENOS EN ESTA CAUSA</i></div>
+      <div class="collapsible-header">HAGA UNA DONACIÓN AHORA Y APOYENOS EN ESTA CAUSA</div>
       <div class="collapsible-body"><p>
       Nos dedicamos a hacer la diferencia y ayudar a muchos estudiantes a alcanzar sus metas, con su ayuda, vamos a ser capaces de ofrecer más becas y beneficiar a más estudiantes. 
 
@@ -62,9 +62,9 @@
       Cascajal Foundation cuenta con el apoyo de donantes generosos como USTED.
       </p>
       <!--                    Button                    -->
-        <section>
+        <section class="center-align">
           <button type="button" class="btn btn-default btn-sm">
-            <span class="glyphicon glyphicon-thumbs-up center-align"></span> Haga su donación »
+            <span class="glyphicon glyphicon-thumbs-up "></span> Haga su donación »
           </button>
         </section>
       <!--                  ./Button                    -->

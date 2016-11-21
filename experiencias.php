@@ -21,7 +21,7 @@
 <body>
 <?php include './header.php';?>
 <!--                                  Titulo                                  -->
-  <div class="col s12" style="border-bottom: 45px solid #008001"><h1 class="center-align flow-text">Cascajal Foundation</h1></div>
+  <div><h3 class="center-align ">Experiencias</h3></div>
 <!--                                  /Titulo                                  -->
 
 <section>
