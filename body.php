@@ -13,8 +13,8 @@
 </head>
 
 <body>
-
-<!--                                     Inicio jumbotron                                     -->
+<section>
+  <!--                                     Inicio jumbotron                                     -->
 <div class="fullscreen" id="jumbo">
   <h1 id="jumbo1" class="text-center">Fundación Cascajal</h1>
   <h3 id="jumbo1" class="text-center">Buenaventura</h3>
@@ -103,6 +103,7 @@
     </div>
   </section>
 <!--                       Fin de imagenes en miniatura                       -->
+</section>
 
 
 </body>

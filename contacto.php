@@ -13,7 +13,8 @@
 </head>
 
 <body background="img/background.jpg">
-
+<section>
+  
 <?php include './header.php';?>
 
 <section style="margin-top: 30px; margin-bottom: 33px;">
@@ -47,6 +48,7 @@
 </section>
 
 <?php include './footer.php';?>
+</section>
 
  </body>
 </html>

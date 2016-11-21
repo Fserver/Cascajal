@@ -7,12 +7,16 @@
 </head>
 
 <body background="img/background.jpg">
-
+<section>
+	
 <?php include './header.php';?>
 
 <?php include './body.php';?>
 
 <?php include './footer.php';?>
-	
+
+</section>
+
+
 </body>
 </html>

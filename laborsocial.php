@@ -21,7 +21,8 @@
 </head>
 
 <body>
-
+<section>
+  
 <?php include './header.php';?>
 
 <section>
@@ -82,6 +83,8 @@
 </section>
 
 <?php include './footer.php';?>
+
+</section>
 
  </body>
 </html>
