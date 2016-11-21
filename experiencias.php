@@ -14,6 +14,9 @@
     <script type="text/javascript">
       $(document).ready(function(){
       $('.tooltipped').tooltip({delay: 50});
+      $('.carousel').carousel();
+
+      });
     </script>
 
 </head>
@@ -28,6 +31,7 @@
   <div>
     <img src="img/parallax1.jpg" style="margin-bottom: -41px;">
   </div>
+
   <div class="section white">
     <h1 class="center-align">Estudiantes Becados</h1>
     <div class="col s12">
@@ -50,9 +54,48 @@
         </ul>
       </div>
   </div>
-  <div>
-    <img src="img/parallax1.jpg">
+
+
+      <div class="row">
+        <div class="col s12">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/unidos.jpg">
+              <span class="card-title">Trabajmos unidos con un propósito</span>
+            </div>
+    <div class="col s12">
+      <div class="col-xs-12 col-md-6 center-align">
+      
+  <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="img/1.jpg">"Informacion"</a>
+    <a class="carousel-item" href="#two!"><img src="img/2.jpg">"Informacion"</a>
+    <a class="carousel-item" href="#three!"><img src="img/3.jpg">"Informacion"</a>
+    <a class="carousel-item" href="#four!"><img src="img/4.jpg">"Informacion"</a>
+    <a class="carousel-item" href="#five!"><img src="img/5.jpg">"Informacion"</a>
   </div>
+
+      </div>
+      <div class="col-xs-12 col-md-6 center-align">
+
+  <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="img/1.jpg">"Informacion"</a>
+    <a class="carousel-item" href="#two!"><img src="img/2.jpg">"Informacion"</a>
+    <a class="carousel-item" href="#three!"><img src="img/3.jpg">"Informacion"</a>
+    <a class="carousel-item" href="#four!"><img src="img/4.jpg">"Informacion"</a>
+    <a class="carousel-item" href="#five!"><img src="img/5.jpg">"Informacion"</a>
+  </div>
+
+
+      </div>
+
+
+
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
 
