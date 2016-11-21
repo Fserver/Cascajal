@@ -110,3 +110,7 @@ footer.page-footer{
 .btn, .btn-large, .btn-flat {
 	center-align: 0px;
 }
+
+.card .card-image .card-title{
+	color: #000;
+}
