@@ -10,6 +10,8 @@
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/materialize.js"></script>
+    <link rel="stylesheet" type="text/css" href="fonts/roboto/">
+
 
     <script type="text/javascript">
         $(document).ready(function(){
@@ -20,7 +22,7 @@
     </script>
 </head>
 
-<body>
+<body background="img/background.jpg">
 <section>
   
 <?php include './header.php';?>
@@ -33,18 +35,18 @@
   </div>
 </section>
 
-<section class="container" style="min-height: 560px;">
-  <ul class="collapsible" data-collapsible="accordion">
+<section class="container center" style="min-height: 560px; ">
+  <ul class="collapsible" data-collapsible="accordion" style="background-color: #7aff87;">
     <li>
-      <div class="collapsible-header active">SOMOS CASCAJAL FOUNDATION...</div>
+      <div id="laborTitulo" class=" regular collapsible-header active">SOMOS CASCAJAL FOUNDATION...</div>
       <div class="collapsible-body"><p>
-        una organización sin animo de lucro 501c(3) dedicada a la adquisición, financiación y promoción de oportunidades educativas para jóvenes hispanos desde secundaria hasta postgrado. Cascajal Foundation organiza una amplia variedad de actividades sociales para recaudar fondos con el objetivo de proporcionar apoyo financiero en forma becas para estudiantes hispanos de bajos ingresos. Desde 2009, Cascajal Foundation ha otorgado becas a estudiantes para cubrir los costos parciales de sus matrículas en diferentes universidades de los Estados Unidos
+        Una organización sin animo de lucro 501c(3) dedicada a la adquisición, financiación y promoción de oportunidades educativas para jóvenes hispanos desde secundaria hasta postgrado. Cascajal Foundation organiza una amplia variedad de actividades sociales para recaudar fondos con el objetivo de proporcionar apoyo financiero en forma becas para estudiantes hispanos de bajos ingresos. Desde 2009, Cascajal Foundation ha otorgado becas a estudiantes para cubrir los costos parciales de sus matrículas en diferentes universidades de los Estados Unidos
       </p></div>
     </li>
     <li>
-      <div class="collapsible-header">TRABAJAMOS CON LA COMUNIDAD...</div>
+      <div id="laborTitulo" class="collapsible-header">TRABAJAMOS CON LA COMUNIDAD...</div>
       <div class="collapsible-body">
-      <pre>COMPROMETIDOS CON LA FORMACIÓN DE NUESTROS LÍDERES</pre>
+      <pre style="background-color: rgba(46, 255, 0, 0.55);">COMPROMETIDOS CON LA FORMACIÓN DE NUESTROS LÍDERES</pre>
       <p>
         En Cascajal Foundation, nuestro objetivo es motivar a los estudiantes hispanos para lograr una educación universitaria y promover su participación en el desarrollo y progreso del país. Cada año, Cascajal Foundation ofrece varias becas de hasta $ 1,000.00 USD a los estudiantes hispanos más destacados de las escuelas de Houston, Texas. También promovemos la educación de postgrado para estudiantes nacionales e internacionales deseosos de continuar su educación.</p>
       <p>
@@ -54,7 +56,7 @@
       </p></div>
     </li>
     <li>
-      <div class="collapsible-header">HAGA UNA DONACIÓN AHORA Y APOYENOS EN ESTA CAUSA</div>
+      <div id="laborTitulo" class="collapsible-header">HAGA UNA DONACIÓN AHORA Y APOYENOS EN ESTA CAUSA</div>
       <div class="collapsible-body"><p>
       Nos dedicamos a hacer la diferencia y ayudar a muchos estudiantes a alcanzar sus metas, con su ayuda, vamos a ser capaces de ofrecer más becas y beneficiar a más estudiantes. 
 
@@ -64,7 +66,7 @@
       </p>
       <!--                    Button                    -->
         <section class="center-align">
-          <button type="button" class="btn btn-default btn-sm">
+          <button type="button" class="btn btn-default btn-sm" style="margin-bottom: 15px;">
             <span class="glyphicon glyphicon-thumbs-up "></span> Haga su donación »
           </button>
         </section>
