@@ -114,3 +114,18 @@ footer.page-footer{
 .card .card-image .card-title{
 	color: #000;
 }
+
+.collapsible-header{
+	background-color: #f6ff00;
+}
+
+.collapsible{
+	border-top: 2px solid #fff500;
+    border-right: 2px solid #fff500;
+    border-left: 2px solid #fff500;
+    margin: 0.5rem 0 1rem 0;
+}
+
+#laborTitulo{
+	
+}
