@@ -20,19 +20,14 @@
 
 </head>
 
-<body background="img/img1.jpg">
+<body>
 <section>
   
 <?php include './header.php';?>
-<!--                                  Titulo                                  -->
-  <div style="background-color: #fff80d; color: #008001; font-style: oblique; font-family: monospace;"><h3 class="center-align">Experiencias</h3></div>
-<!--                                  /Titulo                                  -->
-<div style="min-height: 100px;">div</div>
-  
+ 
 </div>
 <section>
   <div class="section white">
-    <h1 class="center-align">Estudiantes Becados</h1>
     <div class="col s12">
       <div class="col-xs-12 col-md-6">
         <ul class="collection with-header center-align">
