@@ -16,7 +16,7 @@
         <h5 class="green-text">Cascajal Foundation 2016</h5>
         <p class="green-text">Buenaventura</p>
       </div>
-      <div class="col l4 offset-l2 s12">
+      <div class="col l4 s12">
         <h5 class="green-text">Contacto</h5>
         <ul>
           <li><a class="green-text" href="#!">Email: info@cascajal.org</a></li>

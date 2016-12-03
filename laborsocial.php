@@ -27,14 +27,6 @@
   
 <?php include './header.php';?>
 
-<section>
-  <div>
-    <div>
-        <img id="imglaborsocial" src="img/laborsocial.jpg" class="img-responsive" alt="Cinque Terre" style="width: 100%;height: 600px;">
-    </div>
-  </div>
-</section>
-
 <section class="container center" style="min-height: 560px; ">
   <ul class="collapsible" data-collapsible="accordion" style="background-color: #7aff87;">
     <li>
